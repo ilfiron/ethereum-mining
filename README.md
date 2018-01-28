@@ -49,7 +49,7 @@ a) Open cron table for root user:
 $ sudo crontab -e
 ```
 
-b) Add following line (modify the path accordinly to your setup):
+b) Add following line (modify the path accordingly to your setup):
 
 ```shell
 @reboot /home/user/ethereum-mining/set_power_limit.sh
@@ -66,11 +66,11 @@ Therefore it is best to run the script as a part of "Startup Applications" after
 See detailed instructions here how to set it:
 https://askubuntu.com/questions/48321/how-do-i-start-applications-automatically-on-login
 
-**IMPORTANT:** You need to modify start_minig.sh script and specify your *WALLET_ID*, *POOL_HOST* and *BAK_POOL_HOST* between the lines 29 and 34.
+**IMPORTANT:** You need to modify start_mining.sh script and specify your *WALLET_ID*, *POOL_HOST* and *BAK_POOL_HOST* between the lines 29 and 34.
 
 Sample usage:
 ```shell
-$ ./start_minig.sh
+$ ./start_mining.sh
 ```
 
 ### *Task 3) Check mining processes status*
