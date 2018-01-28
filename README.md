@@ -1,4 +1,5 @@
 # Ethereum mining automation
+###### *Version 1.0*
 This project implements the shell scripts for Ethereum mining automation.
 It works with NVIDIA cards using ethminer - the Ethereum GPU mining worker.
 All scripts were implemented and tested on Ubuntu 16.04.3 LTS 64bit.
@@ -112,4 +113,5 @@ You may see more option by exeuting them with `-h` option.
 `stop_mining.sh` - stops all ethereum miner scripts
 
 `mount_usb.sh` - mounts/unmounts USB drive
+
 
